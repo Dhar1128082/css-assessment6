@@ -1,0 +1,305 @@
+body{
+    background-image: url(./sahara_desert.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: end;
+    padding: 0 2.4rem;
+    position: relative;
+}
+
+a{
+    margin: 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+
+.link-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: end;
+}
+
+img{
+    display: inline-block;
+    height: 2rem;
+    width: 3rem;
+}
+
+.logo{
+    height: 3rem;
+    width: 3rem;
+    position: absolute;
+}
+
+.material-symbols-outlined{
+    border-radius: 50%;
+    background-color: rgb(22, 127, 231);
+    color: whitesmoke;
+}
+#one{
+    background-image: url(./western.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 15rem;
+    width: 14rem;
+    border-radius: 0.8rem;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+#two{
+    background-image: url(./albagawat.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 15rem;
+    width: 14rem;
+    border-radius: 0.8rem;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#three{
+    background-image: url(./pyramid.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 15rem;
+    width: 14rem;
+    border-radius: 0.8rem;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#four{
+    background-image: url(./kalahari.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 15rem;
+    width: 14rem;
+    border-radius: 0.8rem;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 17rem 17rem;
+    float: right;
+    gap: 1rem;
+}
+a{
+    cursor: pointer;
+}
+
+h1{
+    font-size: 5rem;
+    color: white;
+}
+p{
+    color: white;
+    font-size: 0.8rem;
+}
+
+#first{
+    background-color: lightslategray;
+}
+
+.main2{
+    display: flex;
+    flex-flow: column wrap;
+    align-content:center;
+    align-items:stretch;
+    float: left;
+}
+button{
+    display: inline-block;
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 5rem;
+}
+
+.effect:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+@media (max-width:740px) and (min-width:360px)
+{
+    
+    
+    p{
+        font-size: 1.5rem;
+        float: none;
+        text-align: center;
+
+    }
+    .main{
+        display: flex;
+        flex-flow: column wrap;
+        align-content: center;
+        float: none;
+    }
+    
+    button{
+        margin: 0;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .material-symbols-outlined{
+        position: relative;
+        left: 80%;
+        bottom: 80%;
+    }
+    .main2{
+        float: none;
+    }
+}
+
+
+
+
+/* 
+@media (max-width:1726px) and (min-width:740px)
+{
+    .container
+    {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: end;
+        padding: 0 2.4rem;
+        position: relative;
+    }  
+
+    a{
+        margin: 1.5rem;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .link-container{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: end;
+    }
+    
+    img
+    {
+        display: inline-block;
+        height: 2rem;
+        width: 3rem;
+    }
+    
+    .logo{
+        height: 3rem;
+        width: 3rem;
+        position: absolute;
+    }
+    
+    .material-symbols-outlined{
+        border-radius: 50%;
+        background-color: rgb(26, 79, 133);
+        color: whitesmoke;
+    }
+
+    #one{
+        background-image: url(./western.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 15rem;
+        width: 14rem;
+        border-radius: 0.8rem;
+        color: white;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    #two{
+        background-image: url(./albagawat.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 15rem;
+        width: 14rem;
+        border-radius: 0.8rem;
+        color: white;
+        text-align: center;
+        vertical-align: middle;
+    }
+    
+    #three{
+        background-image: url(./pyramid.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 15rem;
+        width: 14rem;
+        border-radius: 0.8rem;
+        color: white;
+        text-align: center;
+        vertical-align: middle;
+    }
+    
+    #four{
+        background-image: url(./kalahari.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 15rem;
+        width: 14rem;
+        border-radius: 0.8rem;
+        color: white;
+        text-align: center;
+        vertical-align: middle;
+    }
+    
+    .main{
+        display: grid;
+        grid-template-columns: 17rem 17rem;
+        float: right;
+        gap: 1rem;
+    }
+
+    a{
+        cursor: pointer;
+    }
+    
+    h1{
+        font-size: 5rem;
+        color: white;
+    }
+
+    p{
+        color: white;
+        font-size: 0.8rem;
+    }
+    
+    #first{
+        background-color: lightslategray;
+          }
+    
+    .main2{
+        display: flex;
+        flex-flow: column wrap;
+        align-content:center;
+        align-items:stretch;
+    }
+
+    button{
+        display: inline-block;
+        width: 10rem;
+        height: 2.5rem;
+        border-radius: 5rem;
+    }
+    
+    .effect:hover{
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+} */
